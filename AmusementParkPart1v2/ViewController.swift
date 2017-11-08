@@ -74,7 +74,7 @@ class ViewController: UIViewController {
         for passToSwipe in errorFreeTestPasses {
             for exampleLocation  in locationsCollection {
                 print("Swiping pass \(passToSwipe.hashID) of type \(passToSwipe.entrantType) at \(exampleLocation.name)")
-                print("has the following results")
+                print("has the following results:")
                 exampleLocation.swipe(pass: passToSwipe)
                 print()
                 print("-------------")

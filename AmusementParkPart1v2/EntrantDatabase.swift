@@ -50,12 +50,12 @@ let maintenanceWorkerPass = generatePass(from: maintenanceWorker)
 let errorFreeTestPasses: [Pass] = [
     //Guest Passes
     
-    // classicGuestBasicPass,
-    // classicGuestBirthdayNamePass,
+    //  classicGuestBasicPass,
+    //  classicGuestBirthdayNamePass,
     //  classicGuestBirthdayNoNamePass,
-    //   classicGuestNotBirthdayPass,
+    //  classicGuestNotBirthdayPass,
     //  freeChildGuestValidPass,
-    //     freeChildGuestExpiredPass,
+    //  freeChildGuestExpiredPass,
     //  vipGuestPass,
     
     //Employee Passes
