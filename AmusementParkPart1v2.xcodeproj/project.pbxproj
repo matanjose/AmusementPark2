@@ -14,6 +14,14 @@
 		B2F20A201FB3AB4B0099B024 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F20A1E1FB3AB4B0099B024 /* LaunchScreen.storyboard */; };
 		B2F20A2B1FB3AB4B0099B024 /* AmusementParkPart1v2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A2A1FB3AB4B0099B024 /* AmusementParkPart1v2Tests.swift */; };
 		B2F20A361FB3AB4B0099B024 /* AmusementParkPart1v2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A351FB3AB4B0099B024 /* AmusementParkPart1v2UITests.swift */; };
+		B2F20A441FB3ABDE0099B024 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A431FB3ABDE0099B024 /* SharedData.swift */; };
+		B2F20A461FB3AC150099B024 /* TypesAndPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A451FB3AC150099B024 /* TypesAndPermissions.swift */; };
+		B2F20A481FB3AC480099B024 /* Passes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A471FB3AC480099B024 /* Passes.swift */; };
+		B2F20A4A1FB3AC660099B024 /* Entrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A491FB3AC660099B024 /* Entrants.swift */; };
+		B2F20A4C1FB3AC950099B024 /* EntrantDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A4B1FB3AC950099B024 /* EntrantDatabase.swift */; };
+		B2F20A4E1FB3ACDB0099B024 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A4D1FB3ACDB0099B024 /* Locations.swift */; };
+		B2F20A501FB3AD100099B024 /* LocationsDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A4F1FB3AD100099B024 /* LocationsDatabase.swift */; };
+		B2F20A521FB3AD4D0099B024 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F20A511FB3AD4D0099B024 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		B2F20A311FB3AB4B0099B024 /* AmusementParkPart1v2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmusementParkPart1v2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F20A351FB3AB4B0099B024 /* AmusementParkPart1v2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmusementParkPart1v2UITests.swift; sourceTree = "<group>"; };
 		B2F20A371FB3AB4B0099B024 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F20A431FB3ABDE0099B024 /* SharedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+		B2F20A451FB3AC150099B024 /* TypesAndPermissions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypesAndPermissions.swift; sourceTree = "<group>"; };
+		B2F20A471FB3AC480099B024 /* Passes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passes.swift; sourceTree = "<group>"; };
+		B2F20A491FB3AC660099B024 /* Entrants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrants.swift; sourceTree = "<group>"; };
+		B2F20A4B1FB3AC950099B024 /* EntrantDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntrantDatabase.swift; sourceTree = "<group>"; };
+		B2F20A4D1FB3ACDB0099B024 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		B2F20A4F1FB3AD100099B024 /* LocationsDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsDatabase.swift; sourceTree = "<group>"; };
+		B2F20A511FB3AD4D0099B024 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 			children = (
 				B2F20A151FB3AB4B0099B024 /* AppDelegate.swift */,
 				B2F20A171FB3AB4B0099B024 /* ViewController.swift */,
+				B2F20A431FB3ABDE0099B024 /* SharedData.swift */,
+				B2F20A451FB3AC150099B024 /* TypesAndPermissions.swift */,
+				B2F20A471FB3AC480099B024 /* Passes.swift */,
+				B2F20A491FB3AC660099B024 /* Entrants.swift */,
+				B2F20A4B1FB3AC950099B024 /* EntrantDatabase.swift */,
+				B2F20A4D1FB3ACDB0099B024 /* Locations.swift */,
+				B2F20A4F1FB3AD100099B024 /* LocationsDatabase.swift */,
+				B2F20A511FB3AD4D0099B024 /* Errors.swift */,
 				B2F20A191FB3AB4B0099B024 /* Main.storyboard */,
 				B2F20A1C1FB3AB4B0099B024 /* Assets.xcassets */,
 				B2F20A1E1FB3AB4B0099B024 /* LaunchScreen.storyboard */,
@@ -259,7 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F20A461FB3AC150099B024 /* TypesAndPermissions.swift in Sources */,
+				B2F20A441FB3ABDE0099B024 /* SharedData.swift in Sources */,
+				B2F20A481FB3AC480099B024 /* Passes.swift in Sources */,
+				B2F20A4C1FB3AC950099B024 /* EntrantDatabase.swift in Sources */,
 				B2F20A181FB3AB4B0099B024 /* ViewController.swift in Sources */,
+				B2F20A4A1FB3AC660099B024 /* Entrants.swift in Sources */,
+				B2F20A521FB3AD4D0099B024 /* Errors.swift in Sources */,
+				B2F20A501FB3AD100099B024 /* LocationsDatabase.swift in Sources */,
+				B2F20A4E1FB3ACDB0099B024 /* Locations.swift in Sources */,
 				B2F20A161FB3AB4B0099B024 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
