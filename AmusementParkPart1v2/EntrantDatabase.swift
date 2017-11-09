@@ -18,9 +18,9 @@ import Foundation
 //Guests
 let classicGuestBasic = Entrant()
 //Change birthdays below so that month and day are SAME as current month and day, format MM/DD/YYYY
-let classicGuestBirthdayName = Entrant(firstName: "Bob", lastName: "Smith", birthdate: "11/8/2017", streetAddress: nil, city: nil, state: nil, zipCode: nil)
-let classicGuestBirthdayNoName = Entrant(firstName: nil, lastName: nil, birthdate: "11/8/2016", streetAddress: nil, city: nil, state: nil, zipCode: nil)
-//Change birthdays below so that month and day are DIFFERENT from current month and day, format MM/DD/YYYY
+let classicGuestBirthdayName = Entrant(firstName: "Bob", lastName: "Smith", birthdate: "11/9/2017", streetAddress: nil, city: nil, state: nil, zipCode: nil)
+let classicGuestBirthdayNoName = Entrant(firstName: nil, lastName: nil, birthdate: "11/9/2016", streetAddress: nil, city: nil, state: nil, zipCode: nil)
+//Change birthdays below so that month and/or day are DIFFERENT from current month and day, format MM/DD/YYYY
 let classicGuestNotBirthday = Entrant(firstName: nil, lastName: nil, birthdate: "10/2/2000", streetAddress: nil, city: nil, state: nil, zipCode: nil)
 let vipGuest = VIPGuest()
 //Make sure that birthdate below is < five years from current date
@@ -48,7 +48,7 @@ let maintenanceWorkerPass = generatePass(from: maintenanceWorker)
 
 
 let errorFreeTestPasses: [Pass] = [
-    //Guest Passes
+                    //Guest Passes
     
     //  classicGuestBasicPass,
     //  classicGuestBirthdayNamePass,
@@ -58,7 +58,7 @@ let errorFreeTestPasses: [Pass] = [
     //  freeChildGuestExpiredPass,
     //  vipGuestPass,
     
-    //Employee Passes
+                    //Employee Passes
     
     //   managerPass,
     //   foodPass,
